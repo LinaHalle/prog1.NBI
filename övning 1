@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mormors köttfärsås</title>
+</head>
+<body>
+  <h1>Mormors köttfärsås</h1>
+  <img 
+    width="400"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBuGi88TDGQEfXQCr5sur4pyGBHDmCbSGmFA&s" alt="Spagetti och köttfärsås"
+  />
+  <h2>Ingredienser:</h2>
+  <ul>
+    <li>300 g spagetti</li> 
+    <li>1 gul lök</li>
+    <li>3 stora morötter</li>
+    <li>2 msk Tomatpure</li>
+    <li>800 g nöttfärs</li>
+    <li>2 köttbuljonger</li>
+    <li>2 burkar finkrossade tomater</li>
+    <li>paprikapulver</li>
+    <li>Vitpeppar</li>
+    <li>salt och peppar</li>
+  </ul>
+
+  <h2>Gör såhär:</h2>
+  <ol>
+    <li>Hacka lök och riv morötterna</li>
+    <li>Bryn färsen i olja och tillsätt löken och morötterna</li>
+    <li>Tillsätt tomatpure, paprikapulver, peppar, salt, fräs i någon minut</li>
+    <li>Tillsätt de krossade tomaterna, buljontärningar</li>
+    <li>Låt sjukda under lock i 15 min</li>
+    <li>Koka pastan enligt anvisnigarna på förpackingen</li>
+    <li>Smaka av köttfärsåsen med salt och peppar</li>
+    <li>Ringla lite olja over spagettin och krydda med vitpeppar</li>
+    <li>Servera köttfärsåsen med pasta och riv på parmesan</li>
+  </ol>
+</body>
+</html>

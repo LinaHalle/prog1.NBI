@@ -1,0 +1,11 @@
+let bokstav : string = "c";
+let vokaler = "aeiouyåäö";
+
+if(vokaler.includes(bokstav.toLowerCase())) 
+  {
+    console.log(`${bokstav} är en vokal!`);
+  }
+  else 
+  {
+    console.log(`${bokstav} är en konsunant`);
+  }

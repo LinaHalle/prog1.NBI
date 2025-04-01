@@ -1,0 +1,128 @@
+// övning 1.1
+// interface Person 
+// {
+//   name : string 
+//   age : number 
+//   gender : string 
+// }
+
+// let p1 : Person = { name : "Zomi", age : 4, gender : "female"}; 
+
+// function printPerson (person : Person) 
+// {
+//   console.log(`${person.name} är ${person.age} år och är ${person.gender}`);
+// }
+
+// printPerson(p1);
+
+
+
+// övning 1.2 
+// interface GeometricShape
+// {
+//   type : string
+// }
+
+// interface Circle extends GeometricShape 
+// {
+//   type : "circle";
+//   radius : number;
+// }
+
+// interface Square extends GeometricShape 
+// {
+//   type : "square";
+//   sideLenght : number;
+// }
+
+// type Shape = Circle | Square;
+
+// let circle1 : Circle = {type : "circle", radius : 10};
+// let square1 : Square = {type : "square", sideLength : 20}; 
+
+// function describeShape (shape : Shape): string 
+// {
+//   switch (shape.type)
+//   {
+//     case "circle" : return (`This is a circle with radius ${shape.radius}.`); 
+//     case "square" : return (`This is a square with side length ${shape.sideLength}.`);
+//       default : return "Unknown shape!";
+//   }
+// }
+
+// console.log(describeShape(circle1));
+// console.log(describeShape(square1));
+
+
+// övning 1.3 
+// interface Employee
+// {
+//   name : string 
+//   IDNumber : number 
+//   department : string 
+// }
+
+// let employee1 : Employee = {name : "Annika", IDNumber : 1998, department : "ekonomi"};
+
+// let employee2 : Employee = {name : "Amanda", IDNumber : 1997, department : "marknadsföring och event"};
+
+// let employee3 : Employee = {name : "Micke", IDNumber : 1967, department : "Vaktmästare och bryggare"};
+
+// let employee4 : Employee = {name : "Lina", IDNumber : 2000, department : "Bryggare"};
+
+
+
+// function describeEmployee (employee : Employee) : string 
+// {
+//   console.log(`${employee.name} med id-nummer ${employee.IDNumber} jobbar med ${employee.department}`);
+// }
+
+// describeEmployee(employee1);
+// describeEmployee(employee2);
+// describeEmployee(employee3);
+// describeEmployee(employee4);
+
+// övning 1.4
+// interface Car 
+// {
+//   brand : string 
+//   model : string 
+//   agemodel : number 
+// }
+
+// let car1 : Car = {brand : "BMW", model : "116", agemodel : 2013};
+
+// let car2 : Car = {brand : "Mercedes", model : "Benz", agemodel : 2010};
+
+// function describeCar (car : Car) : string
+// {
+//   console.log(`Jag har en ${car.brand} av modellen ${car.model} år ${car.agemodel}.`);
+// }
+
+// describeCar(car1);
+// describeCar(car2);
+
+
+// övning 1.5
+// interface Product
+// {
+//   name : string 
+//   brand : string 
+//   price : number 
+//   availability : number
+// }
+
+// let product1 : Product = {name : "mascara", brand : "Maybelline", price : 130, availability : 10};
+
+// let product2 : Product = {name : "hårfön", brand : "electrolux", price : 400, availability : 1};
+
+// let product3 : Product = {name : "läpp-penna", brand : "NYX", price : 89, availability : 15};
+
+// function showProduct (product : Product) : string 
+// {
+//   console.log(`Av ${product.name}, ${product.brand} som kostar ${product.price}kr finns ${product.availability}st kvar i varuhuset:`);
+// }
+
+// showProduct(product1);
+// showProduct(product2);
+// showProduct(product3);
